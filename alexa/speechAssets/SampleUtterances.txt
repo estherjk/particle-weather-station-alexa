@@ -1,0 +1,3 @@
+ParticleSkillIntent for the {sensor}
+ParticleSkillIntent what the {sensor} is
+ParticleSkillIntent what is the {sensor}

@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "intent": "ParticleSkillIntent",
+      "slots": [
+        {
+          "name": "sensor",
+          "type": "LIST_OF_SENSORS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
