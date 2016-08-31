@@ -1,6 +1,6 @@
 # particle-weather-station-alexa
 
-Ask Alexa for the temperature and humidity, which is measured with a DHT11 sensor connected to a Particle Photon. The Alexa skill also uses the [JavaScript Particle API](https://docs.particle.io/reference/javascript/) to get the data from Particle.
+Ask Alexa for the temperature and humidity from a Particle Photon. A DHT11 sensor is used to measure the data. The Alexa skill then gets the data from Particle with the [JavaScript Particle API](https://docs.particle.io/reference/javascript/).
 
 See [particle-weather-station](https://github.com/drejkim/particle-weather-station) for the original version of this project that visualizes the data on a realtime dashboard.
 
@@ -17,9 +17,15 @@ See [particle-weather-station](https://github.com/drejkim/particle-weather-stati
 
 ### Hardware configuration
 
-Go through the [Particle Photon Getting Started Guide](https://docs.particle.io/guide/getting-started/intro/photon/) to get your Photon up and running. Then, wire up the board. Here's a picture of the circuit:
+Go through the [Particle Photon Getting Started Guide](https://docs.particle.io/guide/getting-started/intro/photon/) to get your Photon up and running. Then, wire up the board.
+
+Here's a picture of the circuit:
 
 ![Circuit](https://raw.githubusercontent.com/drejkim/particle-weather-station/master/img/circuit.jpg)
+
+And, here's a schematic that makes the wiring a bit clearer:
+
+![Schematic](https://raw.githubusercontent.com/drejkim/particle-weather-station/master/img/particle-weather-station_bb.png)
 
 First, let's wire up the Photon:
 
