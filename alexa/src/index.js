@@ -44,7 +44,7 @@ ParticleSkill.prototype.eventHandlers.onSessionStarted = function (sessionStarte
 
 ParticleSkill.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
     console.log("ParticleSkill onLaunch requestId: " + launchRequest.requestId + ", sessionId: " + session.sessionId);
-    var speechOutput = "Welcome to the ParticleSkill Weather Station. You can ask me for the temperature or humidity.";
+    var speechOutput = "Welcome to the Particle Weather Station. You can ask me for the temperature or humidity.";
     var repromptText = "You can ask me for the temperature or humidity";
     response.ask(speechOutput, repromptText);
 };
