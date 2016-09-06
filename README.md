@@ -1,6 +1,6 @@
 # particle-weather-station-alexa
 
-Ask Alexa for the temperature and humidity from a Particle Photon. A DHT11 sensor is used to measure the data. The Alexa skill then gets the data from Particle with the [JavaScript Particle API](https://docs.particle.io/reference/javascript/).
+Ask Amazon Alexa for the temperature and humidity from a Particle Photon. A DHT11 sensor is used to measure the data, and the variables are exposed through the [Particle Cloud](https://docs.particle.io/reference/firmware/photon/#particle-variable-). The Alexa skill then gets the data using the [JavaScript Particle API](https://docs.particle.io/reference/javascript/).
 
 See [particle-weather-station](https://github.com/drejkim/particle-weather-station) for the original version of this project that visualizes the data on a realtime dashboard.
 
