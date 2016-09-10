@@ -78,7 +78,7 @@ Now, let's wire up the DHT11 sensor:
 
 ### Alexa Skills Setup
 
-* Go to your [Amazon Developer Dashboard](https://developer.amazon.com) and select **Alex**
+* Go to your [Amazon Developer Dashboard](https://developer.amazon.com) and select **Alexa**
 * Select **Get Started** with Alexa Skills Kit
 * Select **Add a New Skill**
 * In **Skill Information**:
